@@ -28,7 +28,7 @@
     try {
       console.log("Importing existing cookies...");
       const cookiesJSON = await fs.readFile(
-        path.resolve(__dirname, ".cahce/cookies.json")
+        path.resolve(__dirname, ".cache/cookies.json")
       );
       cookies = JSON.parse(cookiesJSON);
     } catch (error) {
