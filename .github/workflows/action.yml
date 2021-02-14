@@ -4,7 +4,6 @@ on:
     branches: main
   schedule: # 触发机制为定时任务
     - cron: "10 5 * * *" # 每天1:10 pm自动执行
-    - cron: "10 17 * * *" # 每天1:10 Am自动执行
 
 jobs:
   autosend:
